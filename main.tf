@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "backend-s3" {
-  bucket = "drithirajni-s3-backend" 
+  bucket = "drithirajni1-s3-backend" 
   force_destroy = "true"
   
 }
