@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "backend-s3" {
-  bucket = "drithirajni1-s3-backend" 
+  bucket = "kalyaniraj-s3-backend" 
   force_destroy = "true"
   
 }
@@ -15,7 +15,7 @@ resource "aws_s3_bucket_versioning" "backend-s3-version" {
 }
 
 resource "aws_dynamodb_table" "backend-dynamoDB" {
-    name           = "backend1"
+    name           = "backend2"
     billing_mode   = "PROVISIONED"
     read_capacity  = 10
     write_capacity = 10
